@@ -1,0 +1,56 @@
+.home {
+  height: 100vh;
+  background: skyblue;
+  position: relative;
+}
+.home .header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+}
+.home .home-slider .carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .home-slider .carousel .carousel-item img {
+  max-width: 100%;
+  max-height: 100vh;
+  display: block;
+}
+.home .home-slider .carousel .carousel-control-next {
+  display: none;
+}
+.home .home-slider .carousel .carousel-control-prev {
+  display: none;
+}
+.home .home-slider .carousel .carousel-indicators {
+  display: none;
+}
+.home .home-slider .carousel .items-parent-class {
+  position: relative;
+}
+.home .home-slider .carousel .items-parent-class .carouselOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: aliceblue;
+}
+.home .home-slider .carousel .items-parent-class .carouselOverlay button {
+  background: #e7a141;
+  color: white;
+  border-radius: 0.2rem;
+  border: none;
+  padding: 8px;
+}
+.home .home-slider .carousel .items-parent-class .carouselOverlay button:hover {
+  background: #e7a141;
+  color: white;
+}/*# sourceMappingURL=home.css.map */
